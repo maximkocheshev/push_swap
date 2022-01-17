@@ -1,10 +1,15 @@
-The aim of the main part of this project is to write a program in C called push_swap which calculates and displays
-on the standard output the smallest program using Push_swap instruction language that
-sorts the integer arguments received with by using  a sorting algorithm.
+# Push_swap
+### ***The aim of the main part***
+To write a program in C called push_swap which calculates and displays on the standard output the smallest program using Push_swap instruction language that sorts the integer arguments received with by using  a sorting algorithm.
+### ***Sorting Algorithms***
+
+***Radix sort***
 
 I am using radix sort for a stack size of more than five numbers.
 
-Also I created an additional array which I sorted immediately by using quicksort. This is necessary in order to firstly check whether the stack is sorted, and secondly, I enter in the field of each order its position in the sorted array + 1.
+***Quicksort***
+
+I created an additional array which I sorted immediately by using quicksort. This is necessary in order to firstly check whether the stack is sorted, and secondly, I enter in the field of each order its position in the sorted array + 1.
 
 Quicksort is a sorting algorithm based on the divide and conquer approach where
 

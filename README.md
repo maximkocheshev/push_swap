@@ -1,5 +1,5 @@
 # Push_swap
-### ***The aim of the main part***
+### ***The aim of the mandatory part***
 To write a program in C called push_swap which calculates and displays on the standard output the smallest program using Push_swap instruction language that sorts the integer arguments received with by using  a sorting algorithm.
 ### ***Sorting Algorithms***
 
@@ -20,3 +20,54 @@ Quicksort is a sorting algorithm based on the divide and conquer approach where
 2. The left and right subarrays are also divided using the same approach. This process continues until each subarray contains a single element.
 
 3. At this point, elements are already sorted. Finally, elements are combined to form a sorted array.
+```
+$>./push_swap 2 1 3 6 5 8
+sa
+pb
+pb
+pb
+sa
+pa
+pa
+pa
+$>./push_swap 0 one 2 3
+Error
+$>
+```
+```
+$>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
+6
+$>
+```
+>Random values.
+### ***The aim of the bonus part***
+• To write a program named checker, which will get as an argument the stack a formatted as a list of integers.
+
+• Checker will then wait and read instructions on the standard input, each instruction will be followed by ’\n’.
+
+• If after executing those instructions, stack a is actually sorted and b is empty, then checker must display "OK". In every other case, checker must display "KO".
+```
+$>./checker 3 2 1 0
+rra
+pb
+sa
+rra
+pa
+OK
+$>./checker 3 2 1 0
+sa
+rra
+pb
+KO
+$>./checker 3 2 one 0
+Error
+$>./checker "" 1
+Error
+$>
+```
+>To press CTRL+D to stop reading during the instruction phase.
+```
+$>ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
+OK
+$>
+```

@@ -41,11 +41,9 @@ $>
 ```
 >Random values.
 ### ***The aim of the bonus part is:***
-• To write a program named checker, which will get as an argument the stack a formatted as a list of integers.
-
-• Checker will then wait and read instructions on the standard input, each instruction will be followed by ’\n’.
-
-• If after executing those instructions, stack a is actually sorted and b is empty, then checker must display "OK". In every other case, checker must display "KO".
+- To write a program named checker, which will get as an argument the stack a formatted as a list of integers.
+- Checker will then wait and read instructions on the standard input, each instruction will be followed by ’\n’.
+- If after executing those instructions, stack a is actually sorted and b is empty, then checker must display "OK". In every other case, checker must display "KO".
 ```
 $>./checker 3 2 1 0
 rra

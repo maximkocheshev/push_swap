@@ -1,5 +1,5 @@
 # Push_swap
-### ***The aim of the mandatory part:***
+### ***The aim of the mandatory part is:***
 To write a program in C called push_swap which calculates and displays on the standard output the smallest program using Push_swap instruction language that sorts the integer arguments received with by using  a sorting algorithm.
 ### ***Sorting Algorithms:***
 
@@ -40,7 +40,7 @@ $>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
 $>
 ```
 >Random values.
-### ***The aim of the bonus part:***
+### ***The aim of the bonus part is:***
 • To write a program named checker, which will get as an argument the stack a formatted as a list of integers.
 
 • Checker will then wait and read instructions on the standard input, each instruction will be followed by ’\n’.

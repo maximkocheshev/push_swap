@@ -2,7 +2,6 @@
 ### ***The aim of the mandatory part is:***
 To write a program in C called push_swap which calculates and displays on the standard output the smallest program using Push_swap instruction language that sorts the integer arguments received with by using  a sorting algorithm.
 ### ***Sorting Algorithms:***
-
 ***Radix sort***
 
 I am using radix sort for a stack size of more than five numbers.

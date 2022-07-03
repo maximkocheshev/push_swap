@@ -68,7 +68,7 @@ int	main(int argc, char **argv)
 		argv = ft_split(argv[1], ' ');
         if (argv == NULL)
             return (1);
-		while (argv[len] != '\0')
+		while (argv[len] != NULL)
 			len++;
 		argc = len;
 		i = 0;

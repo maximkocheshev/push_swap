@@ -108,7 +108,7 @@ int	main(int argc, char **argv)
 	if (argc == 2)
 	{
 		argv = ft_split(argv[1], ' ');
-		while (argv[len] != '\0')
+		while (argv[len] != NULL)
 			len++;
 		argc = len;
 		i = 0;
